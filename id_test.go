@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 
 	mongo "github.com/rs/rest-layer-mongo"
 )

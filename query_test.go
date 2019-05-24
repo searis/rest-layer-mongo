@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/globalsign/mgo/bson"
 	"github.com/rs/rest-layer/resource"
 	"github.com/rs/rest-layer/schema"
 	"github.com/rs/rest-layer/schema/query"
-	"gopkg.in/mgo.v2/bson"
 )
 
 type UnsupportedExpression struct{}

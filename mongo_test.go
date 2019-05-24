@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	mgo "github.com/globalsign/mgo"
 	mongo "github.com/rs/rest-layer-mongo"
 	"github.com/rs/rest-layer/resource"
 	"github.com/rs/rest-layer/schema/query"
-	mgo "gopkg.in/mgo.v2"
 )
 
 // Mongo doesn't support nanoseconds

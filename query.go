@@ -1,10 +1,10 @@
 package mongo
 
 import (
+	mgo "github.com/globalsign/mgo"
+	"github.com/globalsign/mgo/bson"
 	"github.com/rs/rest-layer/resource"
 	"github.com/rs/rest-layer/schema/query"
-	mgo "gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
 )
 
 // getField translate a schema field into a MongoDB field:

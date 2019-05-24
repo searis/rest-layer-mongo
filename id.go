@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/globalsign/mgo/bson"
 	"github.com/rs/rest-layer/schema"
-	"gopkg.in/mgo.v2/bson"
 )
 
 var (
